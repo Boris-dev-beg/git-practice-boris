@@ -33,4 +33,5 @@
 1. Une issue sert a signaler une idee ou un probleme alors qu'une pull request sert a proposer la modification.
 2. Lorsqu'on fusionne une PR qui contient **closes #numero**, le status du ticket passe de *Open* a *closed* avec la mention qu'il a ete resolut par cette PR
 # Partie 8
-1. 
+1. Un **tag Git** sert a numerote les versions d'un projet, il est utile car il permet de revenir sur une version specifique du code apres livraison si un bug survient sans avoir a retenir l'ID de son commit.
+2. 
