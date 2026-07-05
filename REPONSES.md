@@ -34,4 +34,4 @@
 2. Lorsqu'on fusionne une PR qui contient **closes #numero**, le status du ticket passe de *Open* a *closed* avec la mention qu'il a ete resolut par cette PR
 # Partie 8
 1. Un **tag Git** sert a numerote les versions d'un projet, il est utile car il permet de revenir sur une version specifique du code apres livraison si un bug survient sans avoir a retenir l'ID de son commit.
-2. 
+2. **git revert** sert a cree un nouveau commit pour annuler les modification du commit precedent, **git reset --hard** force le projet a revenir a l'etat du commit precedent et supprime tous les commits qui ont ete fait apres, Le plus est sûre a utiliser sur une branche deja partagée est *git revert* car il ne supprime pas les commits mes ajoute un nouveau et ne modifie pas les fichiers locaux en cours.
